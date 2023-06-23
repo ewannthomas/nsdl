@@ -1,0 +1,9 @@
+
+# ignoring pyhthon cache and venv
+.venv
+.vscode
+
+# ignoring data folder
+data
+
+
