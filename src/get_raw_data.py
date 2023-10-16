@@ -129,7 +129,7 @@ def data_grabber(data: list, date: str):
 def date_builder():
     """A function which creates a list week days between the spoecified start and end dates."""
     # initializing date
-    start_date = datetime.datetime.strptime("01-6-2023", "%d-%m-%Y")
+    start_date = datetime.datetime.strptime("30-05-2022", "%d-%m-%Y")
     end_date = datetime.datetime.strptime("13-10-2023", "%d-%m-%Y")
 
     date_generated = pd.date_range(start_date, end_date, freq="B")
