@@ -3,9 +3,9 @@ from pathlib import Path
 
 # defining directories
 dir_path = Path(__file__).resolve().parents[1]
-cap_data_path = dir_path.joinpath("data", "raw/in_cap_mkts")
-otc_data_path = dir_path.joinpath("data", "raw/in_otc")
-interim_data_path = dir_path.joinpath("data", "interim")
+cap_data_path = dir_path.joinpath("data", "raw/nsdl/in_cap_mkts")
+otc_data_path = dir_path.joinpath("data", "raw//nsdl/in_otc")
+interim_data_path = dir_path.joinpath("data", "interim", "nsdl")
 if not interim_data_path.exists():
     interim_data_path.mkdir(parents=True)
 
