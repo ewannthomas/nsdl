@@ -145,8 +145,8 @@ def data_exporter(data: list, market: str, date: str):
 def date_builder():
     """A function which creates a list week days between the spoecified start and end dates."""
     # initializing date
-    start_date = datetime.datetime.strptime("01-07-2016", "%d-%m-%Y")
-    end_date = datetime.datetime.strptime("27-10-2023", "%d-%m-%Y")
+    start_date = datetime.datetime.strptime("01-09-2018", "%d-%m-%Y")
+    end_date = datetime.datetime.strptime("26-11-2023", "%d-%m-%Y")
 
     date_generated = pd.date_range(start_date, end_date, freq="B")
     date_list = date_generated.strftime("%B %d, %Y")
